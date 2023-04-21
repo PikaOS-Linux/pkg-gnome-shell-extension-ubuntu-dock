@@ -6,7 +6,7 @@ add-apt-repository https://ppa.pika-os.com
 add-apt-repository ppa:pikaos/pika
 add-apt-repository ppa:kubuntu-ppa/backports
 # Clone Upstream
-tar -xf ./gnome-shell-extension-ubuntu-dock_79ubuntu2.tar.xz -C ./
+tar -xf ./gnome-shell-extension-ubuntu-dock_79.orig.tar.xz -C ./
 rm -rfv ./gnome-shell-extension-ubuntu-dock-79ubuntu2/debian
 cp -rvf ./debian ./gnome-shell-extension-ubuntu-dock-79ubuntu2/
 cd ./gnome-shell-extension-ubuntu-dock-79ubuntu2
