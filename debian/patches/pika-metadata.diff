@@ -1,0 +1,19 @@
+diff -ru ./gnome-shell-extension-ubuntu-dock-79ubuntu2/metadata.json ./b/metadata.json
+--- ./gnome-shell-extension-ubuntu-dock-79ubuntu2/metadata.json	2023-04-21 23:49:45.705045894 +0300
++++ ./b/metadata.json	2023-04-13 07:25:39.000000000 +0300
+@@ -6,11 +6,11 @@
+     "43",
+     "44"
+ ],
+-"uuid": "pika-dock@pika.com",
+-"name": "PikaOS Dock",
+-"description": "A dock for the Gnome Shell, default PikaOS experience. This extension is a modified version of Dash To Dock with different defaults. Dash To Dock can be installed to replace it and give more (but unsupported) configuration options.",
++"uuid": "ubuntu-dock@ubuntu.com",
++"name": "Ubuntu Dock",
++"description": "A dock for the Gnome Shell, default Ubuntu experience. This extension is a modified version of Dash To Dock with different defaults. Dash To Dock can be installed to replace it and give more (but unsupported) configuration options.",
+ "original-author": "micxgx@gmail.com",
+ "url": "https://micheleg.github.io/dash-to-dock/",
+ "gettext-domain": "dashtodock",
+-"version": 99
++"version": 79
+ }

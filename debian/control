@@ -17,11 +17,11 @@ Homepage: https://github.com/micheleg/dash-to-dock/blob/ubuntu-dock/README.md
 
 Package: gnome-shell-extension-ubuntu-dock
 Architecture: all
-Depends: gnome-shell (<< 44),
-         gnome-shell (>= 40),
+Depends: gnome-shell,
          ${misc:Depends},
          ${shlibs:Depends}
 Replaces: gnome-shell-extension-dashtodock,
+Provides: gnome-shell-extension-dashtodock, gnome-shell-extension-dash-to-dock, gnome-shell-extension-pika-dock,
 Description: Ubuntu Dock for GNOME Shell
  A dock for the Gnome Shell, default Ubuntu experience.
  .

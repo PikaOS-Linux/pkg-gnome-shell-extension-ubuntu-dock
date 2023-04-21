@@ -1,0 +1,20 @@
+gnome-shell-extension-ubuntu-dock (100:79-99pika1) lunar; urgency=medium
+
+  * locations: Use a CommandLine App to launch new windows
+  * locations: Use an external helper to get the location handler (LP: #2013070)
+  * locations: Use normal launch operation if location is not set yet
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 13 Apr 2023 06:25:39 +0200
+
+gnome-shell-extension-ubuntu-dock (100:74-99pika7) kinetic; urgency=medium
+
+  * Initial Creation
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
+
+
+gnome-shell-extension-ubuntu-dock (100:74-99pika4) kinetic; urgency=medium
+
+  * Initial Creation
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Sat, 01 Oct 2022 14:50:00 +0200
