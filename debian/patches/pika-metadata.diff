@@ -1,6 +1,6 @@
-diff -ru ./b/metadata.json ./a/metadata.json
---- ./b/metadata.json	2023-04-13 07:25:39.000000000 +0300
-+++ ./a/metadata.json	2023-04-22 00:05:56.689880121 +0300
+diff -ru b/metadata.json a/metadata.json
+--- b/metadata.json	2023-04-13 07:25:39.000000000 +0300
++++ a/metadata.json	2023-04-22 00:05:56.689880121 +0300
 @@ -6,11 +6,11 @@
      "43",
      "44"
