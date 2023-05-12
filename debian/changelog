@@ -1,4 +1,4 @@
-gnome-shell-extension-ubuntu-dock (100:79-99pika2.lunar) lunar; urgency=medium
+gnome-shell-extension-ubuntu-dock (100:79-99pika3.lunar) lunar; urgency=medium
 
   * locations: Use a CommandLine App to launch new windows
   * locations: Use an external helper to get the location handler (LP: #2013070)
