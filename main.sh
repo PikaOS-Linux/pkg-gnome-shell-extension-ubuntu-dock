@@ -1,10 +1,11 @@
 DEBIAN_FRONTEND=noninteractive
 
 # Clone Upstream
-tar -xf ./gnome-shell-extension-ubuntu-dock_79.orig.tar.xz -C ./
-rm -rfv ./gnome-shell-extension-ubuntu-dock-79ubuntu2/debian
-cp -rvf ./debian ./gnome-shell-extension-ubuntu-dock-79ubuntu2/
-cd ./gnome-shell-extension-ubuntu-dock-79ubuntu2
+wget https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/gnome-shell-extension-ubuntu-dock/87ubuntu1/gnome-shell-extension-ubuntu-dock_87ubuntu1.tar.xz
+tar -xf ./gnome-shell-extension-ubuntu-dock_87ubuntu1.tar.xz -C ./
+rm -rfv ./gnome-shell-extension-ubuntu-dock-87ubuntu1/debian
+cp -rvf ./debian ./gnome-shell-extension-ubuntu-dock-87ubuntu1/
+cd ./gnome-shell-extension-ubuntu-dock-87ubuntu1
 
 # Get build deps
 apt-get build-dep ./ -y

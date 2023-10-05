@@ -1,3 +1,14 @@
+gnome-shell-extension-ubuntu-dock (100:87-100pika1) pikauwu; urgency=medium
+
+  * Releasing v87
+  * Imports: use less verbose export strategy
+  * prefs: Use GObject class for signal emission
+  * cleanup: Avoid setting modules versions
+  * prefs: Remove unneeded log line
+  * extension: Do not try to re-enable the extension when already is
+
+ -- Ward Nakchbandi <hotrod.master@hotmail.com>  Thu, 13 Apr 2023 06:25:39 +0200
+
 gnome-shell-extension-ubuntu-dock (100:79-99pika3.lunar) lunar; urgency=medium
 
   * locations: Use a CommandLine App to launch new windows
