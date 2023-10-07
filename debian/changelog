@@ -1,4 +1,4 @@
-gnome-shell-extension-ubuntu-dock (100:87-100pika1) pikauwu; urgency=medium
+gnome-shell-extension-ubuntu-dock (100:87-100pika2) pikauwu; urgency=medium
 
   * Releasing v87
   * Imports: use less verbose export strategy
