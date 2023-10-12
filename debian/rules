@@ -10,6 +10,7 @@ override_dh_install:
 	mv debian/gnome-shell-extension-ubuntu-dock/usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com debian/gnome-shell-extension-ubuntu-dock/usr/share/gnome-shell/extensions/pika-dock@pika.com
 	sed -i -e "s#ubuntu#pika#" debian/gnome-shell-extension-ubuntu-dock/usr/share/gnome-shell/extensions/pika-dock@pika.com/metadata.json
 	sed -i -e "s#Ubuntu#Pika#" debian/gnome-shell-extension-ubuntu-dock/usr/share/gnome-shell/extensions/pika-dock@pika.com/metadata.json
+	sed -i -e "s#@ubuntu#@pika#" debian/gnome-shell-extension-ubuntu-dock/usr/share/gnome-shell/extensions/pika-dock@pika.com/metadata.json
 
 override_dh_translations:
 	make ./po/dashtodock.pot
